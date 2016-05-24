@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style type="text/css">
+	.heading {
+		font-size:2em;
+	}
+	.content {
+		height:22em;
+		border:1px solid black;
+		width:100%;
+	}
+	.profile-pic {
+		height:22em;
+		width:39.8%;
+		float:left;
+		display:inline-table;
+		border:1px solid black;
+	}
+	.image {
+		border:1px solid black;	
+		margin:0 auto;
+		margin-top:1em;
+		width:65%;
+		height:20em;	
+	}
+	.personal-info {
+		height:22em;
+		width:60%;
+		float:right;
+		margin:0 auto;
+		text-align:center;
+		display:inline-table;
+		border:1px solid black;
+	}
+	.fname, .lname {
+		display:inline-table;
+		height:2em;
+		width:40%;
+		margin:2em 1em 1em 1em;
+		border:3px solid black;
+		padding-left:0.5em;
+	}
+	.email {
+		height:2em;
+		width:80%;
+		margin-bottom:1em;
+		border:3px solid black;
+		padding-left:0.5em;
+	}
+	.button {
+		width:80%;
+		margin:0 auto;
+		height:1.2em;
+		border:1px solid gray;
+		text-align:center;
+		font-size:1.5em;
+		background-color:black;
+		color:white;
+		font-weight:bolder;
+		padding:0.25em;
+	}
+	.button:hover {
+		cursor:pointer;
+		background-color:gray;
+	}
+	.footer {
+		height:7em;
+		width:100%;
+		border:1px solid black;
+	}
+	.opt-in {
+		height:100%;
+		width:100%;
+	}
+</style>
+</head>
+<body>
+	<section id="container">
+		<header class="heading">
+			<h1>Acme Inc.</h1>
+		</header>
+		<section class="content">
+			<form class="login">
+				<div class="profile-pic">
+					<div class="image">
+					<yo-yo></yo-yo>
+						<opt-in>
+							 <div class="brand-logo"></div>
+						</opt-in>
+					</div>
+				</div>
+				<div class="personal-info">
+					<input type="text" class="fname" placeholder="first name">
+					<input type="text" class="lname" placeholder="last name">
+					<input type="text" class="email" placeholder="email">
+					<div class="button">Give us your info!</div>
+				</div>
+			</form>
+		</section>
+		<footer class="footer"></footer>
+	</section>	
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular-animate.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.10/angular-route.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
